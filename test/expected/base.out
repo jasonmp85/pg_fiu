@@ -1,0 +1,9 @@
+\set ECHO 0
+-- You should write your tests
+SELECT pg_fiu('test');
+ pg_fiu 
+--------
+ 
+(1 row)
+
+ROLLBACK;

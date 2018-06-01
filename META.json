@@ -1,0 +1,35 @@
+{
+    "name": "pg_fiu",
+    "abstract": "Fault injection in PostgreSQL",
+    "description": "A long description",
+    "version": "0.0.1",
+    "maintainer": "Jason Petersen <jasonmp85@gmail.com>",
+    "license": "MIT",
+    "provides": {
+        "pg_fiu": {
+            "abstract": "Fault injection in PostgreSQL",
+            "file": "sql/pg_fiu.sql",
+            "docfile": "doc/pg_fiu.md",
+            "version": "0.0.1"
+        }
+    },
+    "release_status": "unstable",
+    "resources": {
+        "bugtracker": {
+            "web": "http://change.me"
+        },
+        "repository": {
+          "url":  "git://change.me/pg_fiu.git",
+          "web":  "http://change.me",
+          "type": "git"
+        }
+    },
+
+    "generated_by": "Jason Petersen <jasonmp85@gmail.com>",
+
+
+    "meta-spec": {
+        "version": "1.0.0",
+        "url": "http://pgxn.org/meta/spec.txt"
+    }
+}
