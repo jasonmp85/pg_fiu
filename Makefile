@@ -7,7 +7,7 @@ TESTS        = $(wildcard test/sql/*.sql)
 REGRESS      = $(patsubst test/sql/%.sql,%,$(TESTS))
 REGRESS_OPTS = --inputdir=test --load-language=plpgsql
 OBJS         = $(patsubst %.c,%.o,$(wildcard src/*.c))
-SHLIB_LINK   = -lfiu
+SHLIB_LINK   = -L/Users/jason/Documents/Code/libfiu/libfiu/ -lfiu
 MODULE_big   = $(EXTENSION)
 PG_CONFIG    = pg_config
 PG91         = $(shell $(PG_CONFIG) --version | grep -qE " 8\.| 9\.0" && echo no || echo yes)
